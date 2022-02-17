@@ -1,0 +1,501 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: local('Georgia Bold'), local('Georgia-Bold'),
+        url('Georgia-Bold.woff2') format('woff2'),
+        url('Georgia-Bold.woff') format('woff'),
+        url('Georgia-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+nav {
+    max-width: 1920px;
+    height: 85px;
+    background: #FFFFFF;
+    position: relative;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.logo {
+    width: 80px;
+    position: absolute;
+    left: 275px;
+    top: 30px;
+}
+
+.nav {
+    width: 557px;
+    height: 24px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 527px;
+    top: 30px;
+}
+
+.btn-cta {
+    width: 277px;
+    height: 51px;
+    position: absolute;
+    left: 1367px;
+    top: 17px;
+}
+
+.b-start-trial {
+    width: 183px;
+    height: 51px;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: #01996D;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    transition-duration: 200ms;
+    transition-delay: 0s;
+}
+
+.b-start-trial:hover {
+    width: 183px;
+    height: 51px;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    color: #01996D;
+    border: 2px solid #01996D;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.section-1 {
+    position: relative;
+    background-image: url("../img/Background.png"); 
+	background-repeat: round;
+	height: 895px;
+}
+
+
+
+
+
+
+
+.headline {
+    position: absolute;
+    left: 275px;
+    top: 175px;
+    width: 440px;
+    height: 384px;
+}
+
+h2 {
+    font-family: 'Georgia';
+    color: #01996D;
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.p-1 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.b-find-your-way {
+    width: 227px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: #01996D;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+
+
+
+
+
+.section-2 {
+    position: relative;
+    background-color: white;
+    height: 1607px;
+    width: 100%;
+}
+
+.section-2-1 {
+    position: absolute;
+    left: 275px;
+    top: 181px;
+    width: 1413px;
+    height: 1175px;
+}
+
+.article-1 {
+    position: relative;
+    box-sizing: content-box;
+    position: absolute;
+}
+
+.p-2 {
+    font-style: normal;
+    font-weight: regular;
+    font-size: 24px;
+}
+
+.h-2-2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.p-3 {
+    position: absolute;
+    left: 720px;
+    top: 58px;
+    width: 671px;
+    height: 267px;
+    line-height: 150%;
+}
+
+.card-1 {
+    position: absolute;
+    top: 455px;
+    left: 275px;
+    width: 390px;
+    height: 899px;
+}
+
+.card-2 {
+    position: absolute;
+    top: 455px;
+    left: 765px;
+    width: 392px;
+    height: 904px;
+}
+
+.card-3 {
+    position: absolute;
+    top: 455px;
+    left: 1247px;
+    width: 441px;
+    height: 900px;
+}
+
+.h-card-1 {
+    box-sizing: content-box;
+    width: 269px;
+    height: 223px;
+    position: relative;
+}
+
+.h-card-2 {
+    box-sizing: content-box;
+    width: 392px;
+    height: 223px;
+    position: relative;
+}
+
+.h-card-3 {
+    box-sizing: content-box;
+    width: 226px;
+    height: 223px;
+    position: relative;
+}
+
+.big-number-in-card-1 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    color: rgba(1, 153, 109, 0.2);
+}
+
+.big-number-in-card-2 {
+    font-family: 'Georgia';
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    color: rgba(1, 153, 109, 0.2);
+}
+
+.big-number-in-card-3 {
+    font-family: 'Georgia';
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    color: rgba(1, 153, 109, 0.2);
+}
+
+.h-in-big-number-1 {
+    position: absolute;
+    top: 104px;
+    left: 88px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.h-in-big-number-2 {
+    position: absolute;
+    top: 104px;
+    left: 79px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.h-in-big-number-3 {
+    position: absolute;
+    top: 104px;
+    left: 124px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.p-in-card-1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.p-in-card-2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.p-in-card-3 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.site-pic {
+    width: 390px;
+    display: block;
+    margin-top: 30px;
+}
+
+.book-pic {
+    width: 390px;
+    display: block;
+    margin-top: 92px;
+}
+
+.girl-pic {
+    width: 390px;
+    display: block;
+    margin-top: 92px;
+}
+
+.section-3 {
+    position: relative;
+    height: 922px;
+    background: #245852;
+}
+
+.woman-pic {
+    position: absolute;
+    top: 229px;
+    left: 818px;
+    height: 500px;
+}
+
+.play-pic {
+    position: absolute;
+    top: 445px;
+    left: 1228px;
+    height: 90px;
+}
+
+.headline-2 {
+    position: absolute;
+    top: 310px;
+    left: 207px;  
+    width: 580px;
+    height: 230px;
+}
+
+.underheadline-1 {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 157%;
+    color: #FFFFFF;
+}
+
+.underheadline-2 {
+    margin-top: 30px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 157%;
+    color: #FFFFFF;
+}
+
+.b-lets-get-started {
+    position: absolute;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    width: 240px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: #01996D;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    left: 207px;
+    top: 597px;
+}
+
+
+
+
+
+
+.section-4 {
+    height: 936px;
+    position: relative;
+}
+
+.girl-2-pic {
+    position: absolute;
+    top: 120px;
+    left: 336px;
+}
+
+.card-pic {
+    position: absolute;
+    top: 475px;
+    left: 275px;
+}
+
+.p-1-4 {
+    font-size: 50px;
+    line-height: 157%;
+}
+
+.p-2-4 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    margin-bottom: 30px;
+}
+
+.div-in-sec-4 {
+    position: absolute;
+    left: 1061px;
+    top: 120px;
+}
+
+.b-find-your-way {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    width: 227px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: #01996D;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+}
+.b-find-your-way:hover {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    width: 227px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #01996D;
+    font-weight: 400;
+    font-size: 20px;
+    border: 2px solid #01996D;
+}
+
+.section_5 {
+    width: 100%;
+    min-height: 600px;
+}
+.block_1 {
+    background-color: #245852;
+    width: 150px;
+    height: 150px;
+    animation: animation-block;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.block_2 {
+    background-color: #01996D;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    animation: animation-circle;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animation-block {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(200px, 200px) rotate(50deg) rotate3d(1,1,1, 0deg);
+    }
+    100% {
+        transform: translate(400px, 400px) rotate(-30deg) rotate3d(1,1,1, 0deg)z;
+    }
+}
+
+@keyframes animation-circle {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(200px, 200px);
+    }
+    100% {
+        transform: translate(300px, 300px);
+        transform: scale(0.5, 0.5);
+    }
+}
